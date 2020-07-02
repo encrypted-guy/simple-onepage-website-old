@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+main {
+    background: #f8f8f8;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: 'Varela Round', sans-serif;
+}
+header {
+    height: 5rem;
+    
+}
+header h1 {
+	float: left;
+	margin-top: 1.5rem;
+	margin-left: 1rem;
+	color: #f73466;
+}
+nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    padding-top: 1.5rem;
+	margin: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f73466;
+    font-weight: bold;
+    letter-spacing: .3em;
+
+}
+
+nav ul li a:hover {
+	color: #5568f1;
+    transition: 0.5s;
+    text-shadow: 0 0 5px #5568f1;
+    
+}
+#border-R{
+    border-right: 2px solid #f73466;
+    padding-right: 20px;
+
+}
+#midsection {
+    position: relative;
+}
+.first {
+ 
+    min-height: 45vh;
+}
+
+.info {
+    background: linear-gradient(to top right, #ff66cc 0%, #6699ff 86%);
+    float: left;
+    width: 30%;
+    min-height: 45vh;
+}
+.info h1 {
+    text-align: center;
+    margin-top: 3rem;
+    text-transform: capitalize;
+}
+.info p {
+    text-align: center;
+    padding: 1em;
+}
+.info ul {
+    list-style: none;
+    text-align: center;
+}
+.info ul li{
+    display: inline-block;
+    margin: 1rem;
+    border: none;
+    padding: 9px 20px;
+    background: #f73466;
+    border-radius: 50px;
+    box-shadow: 0 0 5px #5568f1;
+}
+.info ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: .3em;
+
+}
+.info ul li a:hover{
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 0 2px #fff;
+}
+.pic {
+    background: url(white.jpg);
+    float: right;
+    width: 70%;
+    min-height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pic h1{
+    text-align: center;
+    margin-top: 3rem;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#f73466, #5568f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pic p {
+    text-align: center;
+    padding: 3em;
+    background: -webkit-linear-gradient(#f73466, #5568f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.background {
+    background: url(photo.jpg);
+    width: 100%;
+    min-height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background h1{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #333;
+    text-shadow: 0 0 3px #333;
+}
+.background p {
+    text-align: center;
+    padding: 5em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-shadow: 0 0 3px #333;
+}
+.secound {
+    min-height: 40vh;
+    background: #c0c3c8;
+}
+.ico-1 {
+    float: left;
+    width: 50%;
+    min-height: 40vh;
+    text-align: center;
+    background: linear-gradient(to right, #ffffff 0%, #c0c3c8 86%);
+     
+}
+.ico-2 {
+    float: right;
+    width: 50%;
+    min-height: 40vh;
+    text-align: center;
+    background: linear-gradient(to left, #ffffff 0%, #c0c3c8 86%);
+}
+.ico-1 i {
+    padding-top: 6rem;
+    
+}
+.ico-2 i {
+    padding-top: 6rem;
+}
+.contect a {
+    text-decoration: none;
+    color: #000;
+    
+}
+.contect a:hover {
+    color: #f73466;
+    transition: 0.5s;
+    text-shadow: 0 0 5px #f73466;
+    
+}
+.contect h1 {
+    padding: 10px;
+    font-weight: embold;
+    
+}
+.footer {
+    min-height: 8vh;
+    text-align: center;
+    padding-top: 2rem;
+    background: #fff;
+}
+.footer p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    float: right;
+    padding-right: 3rem;
+    background: -webkit-linear-gradient(#f73466, #5568f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.shdow {
+    min-height: 10vh;
+}
+/*---------marking responsive nav-------------------*/
+#res {
+    color: #f73466;
+    display: none;
+    font-size: 1.2rem;
+}
+#responsive {
+    display: none;
+    position: absolute;
+    float: left;
+    z-index: 5;
+    width: 150px;
+    background: #f8f8f8;
+    box-shadow: 0 0  10px #c0c3c8;
+}
+#responsive li {
+    
+    padding-top: .5rem;
+	margin: .5rem;
+}
+@media (max-width: 900px){
+
+    .nop {
+        display: none;
+    }
+    #res {
+        display: inline;
+ 
+    }
+    
+}
